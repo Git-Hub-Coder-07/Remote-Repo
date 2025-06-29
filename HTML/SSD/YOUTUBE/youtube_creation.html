@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Youtube Creation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+      p {
+        font-family: 'Roboto', arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .thumbnail{
+        width: 300px;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .search-bar {
+        display: block;
+        
+      }
+
+      .vid-title {
+        width: 250px;
+        margin-top: 0px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+
+      .vid-preview {
+        width: 300px;
+        display: inline-block;
+        margin-right: 12px;
+        vertical-align: top;
+      }
+
+      .channel-picture {
+        display: inline-block;
+        width: 40px;
+        vertical-align: top;
+        margin-right: 5px;
+      }
+
+
+    <!--use of grid eliminates the codes like height, width -->
+
+      .video-info-grid {         
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-picture {
+        width: 100%;
+        border-radius: 30px;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+
+      .vid-author {
+        font-size: 15px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 5px;
+      }
+
+      .vid-stats {
+        font-size: 15px;
+        color: rgb(96,96,96);
+      }
+
+    </style>
+
+        
+  </head>
+
+  <body>
+    
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="vid-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/hq720 (1).avif">
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"  src="channel/unnamed.jpg">
+        </div>
+
+        <div class="video-info">
+          <p class="vid-title">
+            MJO | Accident Funny Video | Ho gaya Bawal
+          </p>
+      
+          <p class="vid-author">
+            Make Joke Of
+          </p>
+      
+          <p class="vid-stats">
+            3.4 M views . 6 months ago
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="vid-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail/hq720 (2).avif">
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture"  src="channel/trackin tech.jpg">
+        </div>
+
+        <div class="video-info">
+          <p class="vid-title">
+            Most Popular Laptop hacks you should try in 2023
+          </p>
+      
+          <p class="vid-author">
+            Make Joke Of
+          </p>
+      
+          <p class="vid-stats">
+            6.4 M views . 2 years ago
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

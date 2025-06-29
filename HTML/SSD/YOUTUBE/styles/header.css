@@ -1,0 +1,157 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 100;
+
+  background-color: white;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.2);
+}
+
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 20px;
+  margin-left: 20px;
+}
+
+.youtube-logo {
+  height: 20px;
+  margin-left: 20px;
+}
+
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  height: 27px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.2);
+  width: 0;
+}
+
+.seach-bar::placeholder {
+  font-family: roboto , arial;
+  font-size: 20px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 40px;
+  margin-left: 0px;
+
+  position: relative;
+}
+
+.search-button .tooltip , .voice-button .tooltip {
+  position: absolute;
+  background-color: rgba(147, 144, 144, 0.898);
+  color: white;
+  padding-top: 4PX;
+  padding-bottom: 4PX;
+  padding-right: 5PX;
+  padding-left: 5PX;
+  border-radius: 3px;
+  font-size: 12px;
+  bottom: -30px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip , .voice-button:hover .tooltip {
+  opacity: 1;
+}
+
+.voice-button {
+  height: 30px;
+  width: 40px;
+  border: 0;
+  border-radius: 30px;
+  background-color: white;
+
+  position: relative;
+}
+
+.voice-icon {
+  height: 23px;
+}
+
+
+.right-section {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 25px;
+  width: 30px;
+}
+
+.apps-icon {
+  height: 25px;
+  width: 30px;
+}
+
+.notification-icon {
+  height: 23px;
+  width: 25px;
+  padding-top: 5px;
+}
+
+.notification-container {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 10px;
+  background-color: rgb(183, 0, 0);
+  color: white;
+  font-family: roboto, arial;
+  font-size: 12px;
+  padding-left: 0x;
+  padding-right: 0px;
+  padding-top: 2x;
+  padding-bottom: 2x;
+  border-radius: 20px;
+}
+
+.profile-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

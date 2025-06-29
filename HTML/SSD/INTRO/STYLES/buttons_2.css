@@ -1,0 +1,106 @@
+.request-now {
+    background-color: hsl(0, 0%, 0%);
+    border: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height : 40px;
+    width : 150px;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+.request-now:hover {
+    background-color: #55ce25;
+}
+
+.add-to-cart {
+    background-color:rgb(234, 234, 38);
+    border-radius: 20px;
+    color: black
+    text-align: center;
+    font-size: 16px;
+    border : none;
+    height : 40px;
+    width : 140px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.add-to-cart:hover {
+    background-color: #e4cb14;
+}
+.add-to-cart:active {
+    opacity: 0.6;
+}
+
+.join {
+    background-color: white;
+    border-color: rgb(48, 178, 243);
+    border-radius: 2px;
+    border-color: rgb(48, 178, 243);
+    border-width: 2px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition : background-color 0.15s , color 0.15s;
+}
+.join:hover {
+    background-color: rgb(48, 178, 243);
+    color: white;}
+
+.buy-now {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.apply {
+    background-color: rgb(56, 56, 178);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+}
+
+.save {
+    background-color: white;
+    border-width: 1px;
+    border-color:  rgb(12, 88, 182);
+    color: rgb(12, 88, 182);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.save:hover {
+    border-width: 2px;
+    font-weight: bold;
+    background-color: rgba(163, 210, 244, 0.4);
+}
