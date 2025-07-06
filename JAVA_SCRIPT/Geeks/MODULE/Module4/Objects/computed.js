@@ -19,3 +19,5 @@ obj.grade = "A"; // Adding a new property 'grade' to the object
 console.log(obj[userInput]); // Output: Joker     (accesing thru computed value)
 console.log(obj.class); // Output: 10th     (accesing normal value)
 console.log(obj.grade); // Output: A     (accesing normal value)
+
+console.log(Object.keys(obj));
